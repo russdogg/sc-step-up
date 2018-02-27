@@ -1,0 +1,207 @@
+extends ./templates/base.pug
+
+mixin arrow()
+	svg( version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+		 viewBox="0 0 47 61.7" style="enable-background:new 0 0 47 61.7;" xml:space="preserve" )
+		path( class="st0" d="M43.8,28.5L14.4,2.1c-2.3-2-5.8-1.8-7.8,0.4S4.8,8.3,7,10.4L31.2,32l-27,18.2C1.7,52,1,55.4,2.7,58c1.7,2.5,5.2,3.2,7.7,1.5l32.7-22.1c0.2-0.2,0.5-0.3,0.7-0.5c0,0,0.1-0.1,0.1-0.1c0,0,0.1-0.1,0.1-0.1c0.1-0.1,0.1-0.1,0.2-0.2v0C46.3,34.1,46.1,30.6,43.8,28.5z" )
+
+block styles
+	link( href="/css/index.bundle.css?v=1" rel="stylesheet" type="text/css" )
+
+block content
+	-
+		function removeHtml( str ) {
+			return str.replace( /<\/(.*?)>/g, " " ).replace( /<(.*?)>/g, "" ).trim();
+		}
+	div#hero.rem
+		div.background
+		div.badge
+			img( src=hero.badge && hero.badge.src ? hero.badge.src : "https://placehold.it/320x200" )
+		div#hero-slider.active
+			div.prev(
+				data-analytics-link-component="pov-carousel",
+				data-analytics-link-type="interaction",
+				data-analytics-link-description="left-arrow"
+			)
+				+arrow()
+			div.next(
+				data-analytics-link-component="pov-carousel",
+				data-analytics-link-type="interaction",
+				data-analytics-link-description="right-arrow"
+			)
+				+arrow()
+			each slide in hero.slides
+				div.slide
+					//-
+						div.slideBg
+							img(src="http://production-mirum.s3.amazonaws.com/test/tres-test.jpg")
+							div.clear
+					div.thumbnail
+						img( src=slide.thumbnail && slide.thumbnail.src ? slide.thumbnail.src : "https://placehold.it/448x400" )
+					div.content
+						div.description
+							//-
+								div.brands( class=slide.brands.length > 1 ? "multiple" : "" )
+									each brand in slide.brands
+										case brand
+											when "dove"
+												img.mobile( class=brand, src=global && global.brandLogos && global.brandLogos[brand] && global.brandLogos[brand].mobile && global.brandLogos[brand].mobile.src ? global.brandLogos[brand].mobile.src : "https://placehold.it/320x120" )
+												img.desktop( class=brand, src=global && global.brandLogos && global.brandLogos[brand] && global.brandLogos[brand].desktop && global.brandLogos[brand].desktop.src ? global.brandLogos[brand].desktop.src : "https://placehold.it/320x120" )
+											default
+												img( class=brand, src=global && global.brandLogos && global.brandLogos[brand] && global.brandLogos[brand].src ? global.brandLogos[brand].src : "https://placehold.it/320x120" )
+							div.headline 
+								h1 !{ slide.headline && slide.headline.content ? slide.headline.content : "Missing Content" }
+
+							div.subheadline 
+								div.savings
+									//- +instantSavingsIcon()
+								h2 !{ slide.subheadline && slide.subheadline.content ? slide.subheadline.content : "Missing Content" }
+							
+							div.copy !{ slide.copy && slide.copy.content ? slide.copy.content : "Missing Content" }
+						div.cta
+							a.button(data-slideid=slide.cta.slideid, href="#",
+								data-analytics-link-component="pov-carousel",
+								data-analytics-link-type="cta",
+								data-analytics-link-description=slide.cta && slide.cta.copy && slide.cta.copy.content ? removeHtml( slide.cta.copy.content ) : "Missing Content",
+							) !{ slide.cta && slide.cta.copy && slide.cta.copy.content ? slide.cta.copy.content : "Missing Content" }
+	div#spotlight
+		div.description
+			div.headline
+				h1 !{ spotlight.headline && spotlight.headline.content ? spotlight.headline.content : "Missing Content" }
+			div.subheadline
+				h2 !{ spotlight.subheadline && spotlight.subheadline.content ? spotlight.subheadline.content : "Missing Content" }
+			div.copy !{ spotlight.copy && spotlight.copy.content ? spotlight.copy.content : "Missing Content" }
+			a(
+				href=spotlight.cta && spotlight.cta.url ? spotlight.cta.url : "#",
+				data-analytics-link-component="spotlight",
+				data-analytics-link-type="shop-all",
+				data-analytics-link-description=spotlight.cta && spotlight.cta.url ? spotlight.cta.url : "#"
+			)
+				span Shop All
+		div#spotlight-slider
+			div.nav
+				each slide in spotlight.slides
+					div.slide
+						div.card-wrapper
+							div.card-background
+								div.card
+									div.thumbnail( style=`background-image: url( "${ slide.thumbnail && slide.thumbnail.src ? slide.thumbnail.src : "https://placehold.it/448x400" }" );` )
+										img( src=slide.thumbnail && slide.thumbnail.src ? slide.thumbnail.src : "https://placehold.it/160x160" )
+									div.description
+										div.title
+											h1 !{ slide.brand && slide.brand.content ? slide.brand.content : "Missing Content" }
+											span !{ slide.productTitle && slide.productTitle.content ? slide.productTitle.content : "Missing Content" }
+										div.rating
+											div.stars
+												div.stars__yellow( style=`width: ${ slide.rating && !isNaN( slide.rating ) ? parseFloat( slide.rating ) / 5 * 100 : 75 }%;` )
+									if slide.instantSavings && slide.instantSavings.hasSavings === "true"
+										div.savings
+											+instantSavingsIcon()
+			div.content-wrapper.active
+				div.content
+					div.arrow
+					each slide in spotlight.slides
+						div.slide
+							div.card
+								div.description
+									div.details
+										div.caption
+											span #{ slide.caption ? slide.caption : "Recommended Just For You:" }
+										div.headline !{ slide.headline && slide.headline.content ? slide.headline.content : "Missing Content" }
+										if slide.instantSavings && slide.instantSavings.hasSavings === "true"
+											div.savings #{ slide.instantSavings && slide.instantSavings.copy ? slide.instantSavings.copy : "Missing Content" }
+										div.copy !{ slide.copy && slide.copy.content ? slide.copy.content : "Missing Content" }
+									//- div.price
+									//- 	span.sup $
+									//- 	div.amount !{ slide.price && slide.price.content ? slide.price.content : "Missing Content" }
+								if(slide.cta.url)
+									div.cta
+										a.button(
+											href=slide.cta.url ? slide.cta.url : "#" target="_blank",
+											data-analytics-link-component="spotlight",
+											data-analytics-link-type="shop-now",
+											data-analytics-link-description=`${ slide.headline && slide.headline.content ? removeHtml( slide.headline.content ) : "Missing Content" }${ slide.price && slide.price.content ? "" : "" }`
+										) !{ slide.cta && slide.cta.copy && slide.cta.copy.content ? slide.cta.copy.content : "Missing Content" }
+									div.background
+										img.mobile( src=slide.background && slide.background.mobile && slide.background.mobile.src ? slide.background.mobile.src : "https://placehold.it/160x160" )
+										img.desktop( src=slide.background && slide.background.desktop && slide.background.desktop.src ? slide.background.desktop.src : "https://placehold.it/160x160" )
+								else
+									div.comingsoon
+										.button(
+											href=slide.cta.url ? slide.cta.url : "#" target="_blank",
+											data-analytics-link-component="spotlight",
+											data-analytics-link-type="shop-now",
+											data-analytics-link-description=`${ slide.headline && slide.headline.content ? removeHtml( slide.headline.content ) : "Missing Content" }${ slide.price && slide.price.content ? `:${ removeHtml( slide.price.content ) }` : "" }`
+										) !{ slide.cta && slide.cta.copy && slide.cta.copy.content ? slide.cta.copy.content : "Missing Content" }
+									div.background
+										img.mobile( src=slide.background && slide.background.mobile && slide.background.mobile.src ? slide.background.mobile.src : "https://placehold.it/160x160" )
+										img.desktop( src=slide.background && slide.background.desktop && slide.background.desktop.src ? slide.background.desktop.src : "https://placehold.it/160x160" )
+
+			div.controls
+				div.prev(
+					data-analytics-link-component="spotlight",
+					data-analytics-link-type="interaction",
+					data-analytics-link-description="left-arrow"
+				)
+					+arrow()
+				div.index
+					span.current #{ spotlight.slides && spotlight.slides.length ? "1" : "0" }
+					span &nbsp;of&nbsp;
+					span.count #{ spotlight.slides && spotlight.slides.length ? spotlight.slides.length : "0" }
+				div.next(
+					data-analytics-link-component="spotlight",
+					data-analytics-link-type="interaction",
+					data-analytics-link-description="right-arrow"
+				)
+					+arrow()
+	div#social
+		div#social-feed-wrapper
+			div#social-feed
+				div.description
+					div.headline
+						h1 !{ social.headline && social.headline.content ? social.headline.content : "Missing Content" }
+					div.subheadline
+						h2 !{ social.subheadline && social.subheadline.content ? social.subheadline.content : "Missing Content" }
+				div.cards
+					each item, index in social.feed
+						- var cardIsHidden = false
+						//- $socialFeed__initialVisible
+						if index >= 4
+							- cardIsHidden = true;
+						div.card-wrapper( class=cardIsHidden ? "hidden" : "" )
+							div.card
+								div.user
+									div.avatar
+										img( src=item.avatar && item.avatar.src ? item.avatar.src : "https://placehold.it/64x64" )
+									div.name
+										span !{ item.username ? item.username : "Missing Content" }
+								div.thumbnail
+									img( src=item.thumbnail && item.thumbnail.src ? item.thumbnail.src : "https://placehold.it/320x320" )
+								div.copy !{ item.copy && item.copy.content ? item.copy.content : "Missing Content" }
+								div.cta
+									a.button(
+										href=item.cta ? item.cta : "http://mirumshopper.com",
+										target="_blank",
+										data-analytics-link-component="social",
+										data-analytics-link-type="shop-this-product",
+										data-analytics-link-description=item.cta ? item.cta : "http://mirumshopper.com"
+									)
+										span Shop This Product
+									span at samsclub.com
+				div.cta.loader.hidden
+					a(
+						href="#",
+						data-analytics-link-component="social",
+						data-analytics-link-type="load-more",
+						data-analytics-link-description=""
+					)
+						span Load More
+		div.cta
+			div.headline
+				h1
+					span Share how you Step Up Your Style
+					span.bold with #StepItUpAtSams
+			img( src=social.icon && social.icon.src ? social.icon.src : "https://placehold.it/64x64" )
+
+block scripts
+	script( src="/js/index.bundle.js" )

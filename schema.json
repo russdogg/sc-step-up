@@ -1,0 +1,558 @@
+{
+    "title": "SC Step Up Your Style (5620)",
+    "type": "object",
+    "properties": {
+        "global": {
+            "title": "Global Assets",
+            "type": "object",
+            "properties": {
+                "pageTitle": {
+                    "title": "Page Title",
+                    "type": "string"
+                },
+                "headerLogo": {
+                    "title": "Sam's Club Header Logo",
+                    "type": "object",
+                    "x-hints": {
+                        "form": {
+                            "inputComponent": "s3Uploader"
+                        }
+                    }
+                },
+                "footerLogo": {
+                    "title": "Sam's Club Footer Logo",
+                    "type": "object",
+                    "x-hints": {
+                        "form": {
+                            "inputComponent": "s3Uploader"
+                        }
+                    }
+                },
+                "brandLogos": {
+                    "title": "Brand Logos",
+                    "type": "object",
+                    "properties": {
+                        "dove": {
+                            "type": "object",
+                            "properties": {
+                                "mobile": {
+                                    "title": "Dove Logo - Mobile",
+                                    "type": "object",
+                                    "x-hints": {
+                                        "form": {
+                                            "inputComponent": "s3Uploader"
+                                        }
+                                    }
+                                },
+                                "desktop": {
+                                    "title": "Dove Logo - Desktop",
+                                    "type": "object",
+                                    "x-hints": {
+                                        "form": {
+                                            "inputComponent": "s3Uploader"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "suave": {
+                            "title": "Suave Logo",
+                            "type": "object",
+                            "x-hints": {
+                                "form": {
+                                    "inputComponent": "s3Uploader"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "share": {
+            "title": "Social Share",
+            "type": "object",
+            "properties": {
+                "facebook": {
+                    "title": "Facebook Share",
+                    "type": "object",
+                    "properties": {
+                        "image": {
+                            "title": "Facebook Share Image",
+                            "type": "object",
+                            "x-hints": {
+                                "form": {
+                                    "inputComponent": "s3Uploader"
+                                }
+                            }
+                        },
+                        "copy": {
+                            "title": "Facebook Share Copy",
+                            "type": "string"
+                        },
+                        "url": {
+                            "title": "Facebook Share URL",
+                            "type": "string"
+                        }
+                    }
+                },
+                "twitter": {
+                    "title": "Twitter Share",
+                    "type": "object",
+                    "properties": {
+                        "copy": {
+                            "title": "Twitter Share Copy",
+                            "type": "string"
+                        },
+                        "url": {
+                            "title": "Twitter Share URL",
+                            "type": "string"
+                        }
+                    }
+                },
+                "pinterest": {
+                    "title": "Pinterest Share",
+                    "type": "object",
+                    "properties": {
+                        "image": {
+                            "title": "Pinterest Share Image",
+                            "type": "object",
+                            "x-hints": {
+                                "form": {
+                                    "inputComponent": "s3Uploader"
+                                }
+                            }
+                        },
+                        "copy": {
+                            "title": "Pinterest Share Copy",
+                            "type": "string"
+                        },
+                        "url": {
+                            "title": "Pinterest Share URL",
+                            "type": "string"
+                        }
+                    }
+                },
+                "email": {
+                    "title": "Email Share",
+                    "type": "object",
+                    "properties": {
+                        "subject": {
+                            "title": "Email Share Subject",
+                            "type": "string"
+                        },
+                        "message": {
+                            "title": "Email Share Message",
+                            "type": "string"
+                        },
+                        "url": {
+                            "title": "Email Share URL",
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        },
+        "hero": {
+            "title": "Hero Slider Section",
+            "type": "object",
+            "properties": {
+                "badge": {
+                    "title": "Hero Section Badge Image",
+                    "type": "object",
+                    "x-hints": {
+                        "form": {
+                            "inputComponent": "s3Uploader"
+                        }
+                    }
+                },
+                "slides": {
+                    "title": "Hero Slides",
+                    "type": "array",
+                    "items": {
+                        "title": "Hero Slide",
+                        "type": "object",
+                        "properties": {
+                            "title": {
+                                "title": "Product Title",
+                                "type": "string"
+                            },
+                            "brands": {
+                                "title": "Product Brand Logos",
+                                "type": "array",
+                                "items": {
+                                    "title": "Product Brand Logo",
+                                    "type": "string",
+                                    "enum": [
+                                        "",
+                                        "dove",
+                                        "suave"
+                                    ],
+                                    "enumNames": [
+                                        "Select a brand...",
+                                        "Dove",
+                                        "Suave"
+                                    ]
+                                }
+                            },
+                            "thumbnail": {
+                                "title": "Product Thumbnail",
+                                "type": "object",
+                                "x-hints": {
+                                    "form": {
+                                        "inputComponent": "s3Uploader"
+                                    }
+                                }
+                            },
+                            "headline": {
+                                "title": "Hero Slide Headline",
+                                "type": "object",
+                                "x-hints": {
+                                    "form": {
+                                        "inputComponent": "tinymce"
+                                    }
+                                }
+                            },
+                            "subheadline": {
+                                "title": "Hero Slide Subheadline",
+                                "type": "object",
+                                "x-hints": {
+                                    "form": {
+                                        "inputComponent": "tinymce"
+                                    }
+                                }
+                            },
+                            "copy": {
+                                "title": "Hero Slide Copy",
+                                "type": "object",
+                                "x-hints": {
+                                    "form": {
+                                        "inputComponent": "tinymce"
+                                    }
+                                }
+                            },
+                            "cta": {
+                                "title": "Hero Slide CTA",
+                                "type": "object",
+                                "properties": {
+                                    "copy": {
+                                        "title": "Hero Slide CTA Copy",
+                                        "type": "object",
+                                        "x-hints": {
+                                            "form": {
+                                                "inputComponent": "tinymce"
+                                            }
+                                        }
+                                    },
+                                    "url": {
+                                        "title": "Hero Slide CTA Link",
+                                        "type": "string"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "spotlight": {
+            "title": "Spotlight Slider Section",
+            "type": "object",
+            "properties": {
+                "headline": {
+                    "title": "Spotlight Slider Section Headline",
+                    "type": "object",
+                    "x-hints": {
+                        "form": {
+                            "inputComponent": "tinymce"
+                        }
+                    }
+                },
+                "subheadline": {
+                    "title": "Spotlight Slider Section Subheadline",
+                    "type": "object",
+                    "x-hints": {
+                        "form": {
+                            "inputComponent": "tinymce"
+                        }
+                    }
+                },
+                "copy": {
+                    "title": "Spotlight Slider Section Copy",
+                    "type": "object",
+                    "x-hints": {
+                        "form": {
+                            "inputComponent": "tinymce"
+                        }
+                    }
+                },
+                "cta": {
+                    "title": "Spotlight Slider Section CTA",
+                    "type": "object",
+                    "properties": {
+                        "copy": {
+                            "title": "Spotlight Slide CTA Copy",
+                            "type": "object",
+                            "x-hints": {
+                                "form": {
+                                    "inputComponent": "tinymce"
+                                }
+                            }
+                        },
+                        "url": {
+                            "title": "Spotlight Slide CTA Link",
+                            "type": "string"
+                        }
+                    }
+                },
+                "slides": {
+                    "title": "Spotlight Slides",
+                    "type": "array",
+                    "items": {
+                        "title": "Spotlight Slide",
+                        "type": "object",
+                        "properties": {
+                            "brand": {
+                                "title": "Product Brand",
+                                "type": "object",
+                                "x-hints": {
+                                    "form": {
+                                        "inputComponent": "tinymce"
+                                    }
+                                }
+                            },
+                            "productTitle": {
+                                "title": "Product Title",
+                                "type": "object",
+                                "x-hints": {
+                                    "form": {
+                                        "inputComponent": "tinymce"
+                                    }
+                                }
+                            },
+                            "thumbnail": {
+                                "title": "Product Thumbnail",
+                                "type": "object",
+                                "x-hints": {
+                                    "form": {
+                                        "inputComponent": "s3Uploader"
+                                    }
+                                }
+                            },
+                            "instantSavings": {
+                                "type": "object",
+                                "properties": {
+                                    "hasSavings": {
+                                        "title": "Has Instant Savings?",
+                                        "type": "string",
+                                        "enum": [
+                                            "",
+                                            "true",
+                                            "false"
+                                        ],
+                                        "enumNames": [
+                                            "Please select an option...",
+                                            "Yes",
+                                            "No"
+                                        ]
+                                    }
+                                },
+                                "oneOf": [
+                                    {
+
+                                    },
+                                    {
+                                        "properties": {
+                                            "hasSavings": {
+                                                "enum": [
+                                                    "true"
+                                                ]
+                                            },
+                                            "copy": {
+                                                "title": "Instant Savings Copy",
+                                                "type": "string"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "properties": {
+                                            "hasSavings": {
+                                                "enum": [
+                                                    "false"
+                                                ]
+                                            }
+                                        }
+                                    }
+                                ],
+                                "x-hints": {
+                                    "form": {
+                                        "selector": "hasSavings"
+                                    }
+                                }
+                            },
+                            "rating": {
+                                "title": "Product Rating",
+                                "type": "string"
+                            },
+                            "caption": {
+                                "title": "Product Header Caption",
+                                "type": "string"
+                            },
+                            "headline": {
+                                "title": "Product Headline",
+                                "type": "object",
+                                "x-hints": {
+                                    "form": {
+                                        "inputComponent": "tinymce"
+                                    }
+                                }
+                            },
+                            "copy": {
+                                "title": "Product Copy",
+                                "type": "object",
+                                "x-hints": {
+                                    "form": {
+                                        "inputComponent": "tinymce"
+                                    }
+                                }
+                            },
+                            "price": {
+                                "title": "Product Price",
+                                "type": "object",
+                                "x-hints": {
+                                    "form": {
+                                        "inputComponent": "tinymce"
+                                    }
+                                }
+                            },
+                            "cta": {
+                                "title": "Product CTA",
+                                "type": "object",
+                                "properties": {
+                                    "copy": {
+                                        "title": "Product CTA Copy",
+                                        "type": "object",
+                                        "x-hints": {
+                                            "form": {
+                                                "inputComponent": "tinymce"
+                                            }
+                                        }
+                                    },
+                                    "url": {
+                                        "title": "Product CTA Link",
+                                        "type": "string"
+                                    }
+                                }
+                            },
+                            "background": {
+                                "title": "Product Background",
+                                "type": "object",
+                                "properties": {
+                                    "mobile": {
+                                        "title": "Mobile",
+                                        "type": "object",
+                                        "x-hints": {
+                                            "form": {
+                                                "inputComponent": "s3Uploader"
+                                            }
+                                        }
+                                    },
+                                    "desktop": {
+                                        "title": "Desktop",
+                                        "type": "object",
+                                        "x-hints": {
+                                            "form": {
+                                                "inputComponent": "s3Uploader"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "social": {
+            "title": "Social Feed Section",
+            "type": "object",
+            "properties": {
+                "headline": {
+                    "title": "Social Feed Section Headline",
+                    "type": "object",
+                    "x-hints": {
+                        "form": {
+                            "inputComponent": "tinymce"
+                        }
+                    }
+                },
+                "subheadline": {
+                    "title": "Social Feed Section Subheadline",
+                    "type": "object",
+                    "x-hints": {
+                        "form": {
+                            "inputComponent": "tinymce"
+                        }
+                    }
+                },
+                "feed": {
+                    "title": "Social Feed Items",
+                    "type": "array",
+                    "items": {
+                        "title": "Social Feed Item",
+                        "type": "object",
+                        "properties": {
+                            "title": {
+                                "title": "Social Feed Item Title",
+                                "type": "string"
+                            },
+                            "avatar": {
+                                "title": "Social Feed Item Avatar",
+                                "type": "object",
+                                "x-hints": {
+                                    "form": {
+                                        "inputComponent": "s3Uploader"
+                                    }
+                                }
+                            },
+                            "username": {
+                                "title": "Social Feed Item Username",
+                                "type": "string"
+                            },
+                            "thumbnail": {
+                                "title": "Social Feed Item Thumbnail",
+                                "type": "object",
+                                "x-hints": {
+                                    "form": {
+                                        "inputComponent": "s3Uploader"
+                                    }
+                                }
+                            },
+                            "copy": {
+                                "title": "Social Feed Item Copy",
+                                "type": "object",
+                                "x-hints": {
+                                    "form": {
+                                        "inputComponent": "tinymce"
+                                    }
+                                }
+                            },
+                            "cta": {
+                                "title": "Social Feed Item CTA Link",
+                                "type": "string"
+                            }
+                        }
+                    }
+                },
+                "icon": {
+                    "title": "Social Feed CTA Icon",
+                    "type": "object",
+                    "x-hints": {
+                        "form": {
+                            "inputComponent": "s3Uploader"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

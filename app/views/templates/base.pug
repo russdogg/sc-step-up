@@ -1,0 +1,148 @@
+include ../mixins/svg.pug
+
+html
+	head
+		script if (typeof console == 'undefined') var console = { log: function() {} };
+		// Google Tag Manager
+		script (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-5GCD6M5');
+		// End Google Tag Manager
+		title= global.pageTitle ? global.pageTitle : "Sam's Club - Step Up Your Style"
+		meta( name="viewport", content="width=device-width, initial-scale=1" )
+		meta( property="og:image", content=share.facebook && share.facebook.image && share.facebook.image.src ? share.facebook.image.src : "https://placehold.it/320x240" )
+		meta( property="og:title", content=global.pageTitle ? global.pageTitle : "Sam's Club - Step Up Your Style" )
+		meta( property="og:url", content=share.facebook && share.facebook.url ? share.facebook.url : "inspiringyourstyle.com" )
+		block styles
+	body
+		// Google Tag Manager (noscript)
+		noscript
+			iframe( src="https://www.googletagmanager.com/ns.html?id=GTM-5GCD6M5" height="0" width="0" style="display:none;visibility:hidden" )
+		// End Google Tag Manager (noscript)
+		div#wrapper
+			div#header
+				div.toggle-menu
+					a.toggle-menu-icon( href="#" )
+						span.lines
+							span.line
+							span.line
+							span.line
+				div.logo
+					img( src=global.headerLogo && global.headerLogo.src ? global.headerLogo.src : "https://placehold.it/64x64" )
+				div.toggle-share
+					a.toggle-share-icon( href="#" )
+						span.copy Share
+						span.close X
+			div#nav__menu
+			div#nav__share
+				ul
+					li
+						a.share__facebook(
+							href="#",
+							data-analytics-link-component="header",
+							data-analytics-link-type="share",
+							data-analytics-link-description="facebook"
+						)
+							+facebookIcon()
+							span Share to Facebook
+					li
+						a.share__twitter(
+							href="#",
+							data-analytics-link-component="header",
+							data-analytics-link-type="share",
+							data-analytics-link-description="twitter"
+						)
+							+twitterIcon()
+							span Share to Twitter
+					li
+						a.share__pinterest(
+							href="#",
+							data-analytics-link-component="header",
+							data-analytics-link-type="share",
+							data-analytics-link-description="pinterest"
+						)
+							+pinterestIcon()
+							span Share to Pinterest
+					li
+						a.share__email(
+							href=`mailto:?subject=${ encodeURIComponent( share && share.email && share.email.subject ? share.email.subject : "Missing Content" ) }&body=${ encodeURIComponent( share && share.email && share.email.message ? share.email.message : "Missing Content" ) } ${ encodeURIComponent( share && share.email && share.email.url ? share.email.url : "Missing Content" ) }`,
+							data-analytics-link-component="header",
+							data-analytics-link-type="share",
+							data-analytics-link-description="email"
+						)
+							+emailIcon()
+							span Send in an Email
+			div#content
+				block content
+			div#footer
+				div#nav__footer
+					ul
+						li
+							h1 January
+							ul
+								li
+									a( href="#" ) Dove
+								li
+									a( href="#" ) Suave
+								li
+									a( href="#" ) Suave Kids
+						li
+							h1 February
+							ul
+								li
+									a( href="#" ) Tresemme
+						li
+							h1 March
+							ul
+								li
+									a( href="#" ) Nexxxus
+								li
+									a( href="#" ) Dove
+								li
+									a( href="#" ) Suave
+								li
+									a( href="#" ) Tresemme
+				div.brandLink Shop your family's favorite <br/>brands at 
+					a( href="http://samsclub.com") samsclub.com
+				div.brandLogos
+					.brandLogo.allLogos
+						img(src='https://s3.amazonaws.com/schems.lbox.com/uploads/ByV-bxpDf/footer-brand-logos.png')
+					
+				div.share
+					ul
+						li
+							a.share__facebook(
+								href="#",
+								data-analytics-link-component="footer",
+								data-analytics-link-type="share",
+								data-analytics-link-description="facebook"
+							)
+								+facebookIcon()
+						li
+							a.share__twitter(
+								href="#",
+								data-analytics-link-component="footer",
+								data-analytics-link-type="share",
+								data-analytics-link-description="twitter"
+							)
+								+twitterIcon()
+						li
+							a.share__pinterest(
+								href="#",
+								data-analytics-link-component="footer",
+								data-analytics-link-type="share",
+								data-analytics-link-description="pinterest"
+							)
+								+pinterestIcon()
+						li
+							a.share__email(
+								href=`mailto:?subject=${ encodeURIComponent( share && share.email && share.email.subject ? share.email.subject : "Missing Content" ) }&body=${ encodeURIComponent( share && share.email && share.email.message ? share.email.message : "Missing Content" ) } ${ encodeURIComponent( share && share.email && share.email.url ? share.email.url : "Missing Content" ) }`,
+								data-analytics-link-component="footer",
+								data-analytics-link-type="share",
+								data-analytics-link-description="email"
+							)
+								+emailIcon()
+				div.logo
+					img( src=global.footerLogo && global.footerLogo.src ? global.footerLogo.src : "https://placehold.it/64x64" )
+				div.legal
+					span &copy; 2018 Sam's Club
+		div#background
+		block scripts

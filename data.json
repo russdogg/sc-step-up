@@ -1,0 +1,695 @@
+{
+    "hero": {
+        "slides": [
+            {
+                "title": "Dove, Suave, Suave Kids",
+                "headline": {
+                    "content": "<p>Saving on Health and Beauty Should Run in The Family</p>"
+                },
+                "subheadline": {
+                    "content": "<p>Get $2.00 off with Instant Savings through March 25!</p>"
+                },
+                "copy": {
+                    "content": "<p>Add personal care to your list and take advantage of extra offers on top of the already low prices at Sam&rsquo;s Club!</p>"
+                },
+                "cta": {
+                    "copy": {
+                        "content": "<p>Explore&nbsp;&amp; Save</p>"
+                    },
+                    "slideid": 4
+                },
+                "brands": [
+                    "dove",
+                    "suave"
+                ],
+                "thumbnail": {
+                    "filename": "pov-isb-life.png",
+                    "filetype": "image/png",
+                    "src": "https://s3.amazonaws.com/schems.lbox.com/uploads/rkaN8knPG/pov-isb-life.png"
+                }
+            },
+            {
+                "headline": {
+                    "content": "<p>Let Your Hair Make a Statement</p>"
+                },
+                "subheadline": {
+                    "content": "<p>Style starts in the shower with TRESemm&eacute;<sup>&reg;</sup></p>"
+                },
+                "cta": {
+                    "copy": {
+                        "content": "<p>Explore TRESemm&eacute;<sup>&reg;</sup></p>"
+                    },
+                    "slideid": 1
+                },
+                "title": "Dove Go Fresh Coconut Hydration",
+                "brands": [
+                    "dove"
+                ],
+                "thumbnail": {
+                    "filename": "pov-tresemme.png",
+                    "filetype": "image/png",
+                    "src": "https://s3.amazonaws.com/schems.lbox.com/uploads/SygLUJ3Pz/pov-tresemme.png"
+                },
+                "copy": {
+                    "content": "<p>Boost your confidence and look and feel your best with professional-quality TRESemm&eacute;&reg; hair care products. Find them in the personal care aisle at Sam's Club!</p>"
+                }
+            }
+        ],
+        "badge": {
+            "filename": "suys_logo_2.svg",
+            "filetype": "image/svg+xml",
+            "src": "https://s3.amazonaws.com/schems.lbox.com/uploads/Sy5HUnfXG/suys_logo_2.svg"
+        }
+    },
+    "spotlight": {
+        "headline": {
+            "content": "<p>Check Out Our<br /><strong>Style&nbsp;Spotlight</strong></p>"
+        },
+        "subheadline": {
+            "content": "<p>Featuring Exclusive Sam's Club Savings</p>"
+        },
+        "cta": {
+            "copy": {
+                "content": "<p>Shop All</p>"
+            },
+            "url": "https://www.samsclub.com/sams/promotion-07/10780109.cp"
+        },
+        "copy": {
+            "content": "<p>Shopping for personal care for the whole family? You may as well save, too&nbsp;- it&rsquo;s easy at Sam&rsquo;s Club! Pick up club-sized packs of Degree<sup>&reg;</sup>, AXE, and TRESemm&eacute;<sup>&reg;</sup>&nbsp;on your next trip.</p>"
+        },
+        "slides": [
+            {
+                "brand": {
+                    "content": "<p>TRESemm&eacute;<sup>&reg;</sup></p>"
+                },
+                "productTitle": {
+                    "content": "<p>Hair Spray, Extra Firm Control</p>"
+                },
+                "headline": {
+                    "content": "<p>TRESemm&eacute;<sup>&reg;</sup> Hair Spray, Extra Firm Control (14.6 oz., 2 pk.)</p>"
+                },
+                "copy": {
+                    "content": "<p>Humidity-resistant, this hairspray is never sticky and sprays on dry. Your hairstyles will be frizz-free with the grip and control you need all day.</p>"
+                },
+                "price": {
+                    "content": "<p>TBD</p>"
+                },
+                "cta": {
+                    "copy": {
+                        "content": "<p>Shop Now</p>"
+                    },
+                    "url": "https://www.samsclub.com/sams/tres-two-hair-spray-2-14-6-oz-cans/prod20201884.ip?xid=plp:product:1:4"
+                },
+                "background": {
+                    "mobile": {
+                        "filename": "mobile_0000_tres_hairspray.png",
+                        "filetype": "image/png",
+                        "src": "https://s3.amazonaws.com/schems.lbox.com/uploads/ByAvTc3wM/mobile_0000_tres_hairspray.png"
+                    },
+                    "desktop": {
+                        "filename": "desktop_0000_tres_hairspray.png",
+                        "filetype": "image/png",
+                        "src": "https://s3.amazonaws.com/schems.lbox.com/uploads/HyO_pc3wG/desktop_0000_tres_hairspray.png"
+                    }
+                },
+                "caption": "Recommended Just For You:",
+                "rating": "4.123",
+                "instantSavings": {
+                    "hasSavings": "false"
+                },
+                "thumbnail": {
+                    "filename": "thumbnail_0000_tres_hairspray.jpg",
+                    "filetype": "image/jpeg",
+                    "src": "https://s3.amazonaws.com/schems.lbox.com/uploads/H1UN6q3wM/thumbnail_0000_tres_hairspray.jpg"
+                }
+            },
+            {
+                "brand": {
+                    "content": "<p>TRESemm&eacute;<sup>&reg;</sup></p>"
+                },
+                "productTitle": {
+                    "content": "<p>Moisture Rich Shampoo &amp; Conditioner Value Pack</p>"
+                },
+                "thumbnail": {
+                    "filename": "thumbnail_0001_tres_moisture.jpg",
+                    "filetype": "image/jpeg",
+                    "src": "https://s3.amazonaws.com/schems.lbox.com/uploads/B1spaq2Pz/thumbnail_0001_tres_moisture.jpg"
+                },
+                "instantSavings": {
+                    "hasSavings": "false"
+                },
+                "rating": "4.123",
+                "caption": "Recommended Just For You:",
+                "headline": {
+                    "content": "<p>TRESemm&eacute;<sup>&reg;</sup> Moisture Rich Shampoo &amp; Conditioner Value Pack (40 fl. oz., 2 pk)</p>"
+                },
+                "copy": {
+                    "content": "<p>Uniquely formulated with vitamin E and natural extracts of sunflower, the TRESemm&eacute; Moisture Rich Shampoo &amp; Conditioner system delivers salon-style hair at an affordable price.</p>"
+                },
+                "cta": {
+                    "url": "https://www.samsclub.com/sams/tresemme-sh-cd-2-40-fl-oz/prod19020422.ip?xid=plp:product:1:1",
+                    "copy": {
+                        "content": "<p>Shop Now</p>"
+                    }
+                },
+                "background": {
+                    "mobile": {
+                        "filename": "mobile_0001_tres_moisturerich.png",
+                        "filetype": "image/png",
+                        "src": "https://s3.amazonaws.com/schems.lbox.com/uploads/rJcQR5hPM/mobile_0001_tres_moisturerich.png"
+                    },
+                    "desktop": {
+                        "filename": "desktop_0001_tres_moisturerich.png",
+                        "filetype": "image/png",
+                        "src": "https://s3.amazonaws.com/schems.lbox.com/uploads/r1WNC5hPG/desktop_0001_tres_moisturerich.png"
+                    }
+                }
+            },
+            {
+                "brand": {
+                    "content": "<p>TRESemm&eacute;<sup>&reg;</sup></p>"
+                },
+                "productTitle": {
+                    "content": "<p>Keratin Smooth Shampoo &amp; Conditioner</p>"
+                },
+                "thumbnail": {
+                    "filename": "thumbnail_0002_tres_keratin.jpg",
+                    "filetype": "image/jpeg",
+                    "src": "https://s3.amazonaws.com/schems.lbox.com/uploads/SypoC9nwG/thumbnail_0002_tres_keratin.jpg"
+                },
+                "instantSavings": {
+                    "hasSavings": "false"
+                },
+                "rating": "4.123",
+                "caption": "Recommended Just For You:",
+                "headline": {
+                    "content": "<p><!--?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?--></p>\n<div>TRESemm&eacute;<sup>&reg;</sup> Keratin Smooth Shampoo &amp; Conditioner (32 fl. oz., 2 pk)</div>"
+                },
+                "copy": {
+                    "content": "<p>Don&rsquo;t let unruly frizz get the better of you. Use the Keratin Smooth collection to get smooth, more manageable hair for up to 48 hours*. So, get ready to say so long to frizz with the latest salon innovation!<br />*systems use vs. non-conditioning shampoo</p>"
+                },
+                "price": {
+                    "content": "<p>TBD</p>"
+                },
+                "cta": {
+                    "copy": {
+                        "content": "<p>Shop Now</p>"
+                    },
+                    "url": "https://www.samsclub.com/sams/tres-keratin-sh-cd-2-pk-32-fl-oz/prod12430152.ip?xid=plp:product:1:2"
+                },
+                "background": {
+                    "mobile": {
+                        "filename": "mobile_0002_tres_keratin.png",
+                        "filetype": "image/png",
+                        "src": "https://s3.amazonaws.com/schems.lbox.com/uploads/B1XGJi3DG/mobile_0002_tres_keratin.png"
+                    },
+                    "desktop": {
+                        "filename": "desktop_0002_tres_keratin.png",
+                        "filetype": "image/png",
+                        "src": "https://s3.amazonaws.com/schems.lbox.com/uploads/By9fJj3PG/desktop_0002_tres_keratin.png"
+                    }
+                }
+            },
+            {
+                "brand": {
+                    "content": "<p>Degree<sup>&reg;</sup> Men</p>"
+                },
+                "productTitle": {
+                    "content": "<p>Dry Protection Anti-Perspirant, Cool Rush</p>"
+                },
+                "thumbnail": {
+                    "filename": "thumbnail_0003_degree_coolrush.jpg",
+                    "filetype": "image/jpeg",
+                    "src": "https://s3.amazonaws.com/schems.lbox.com/uploads/Syc5ks3DG/thumbnail_0003_degree_coolrush.jpg"
+                },
+                "instantSavings": {
+                    "hasSavings": "true",
+                    "copy": "$2 Instant Savings"
+                },
+                "rating": "4.123",
+                "headline": {
+                    "content": "<p>Degree<sup>&reg;</sup> Men Dry Protection Anti-Perspirant, Cool Rush (2.7 oz., 5 pk.)</p>"
+                },
+                "caption": "Recommended For Your Family:",
+                "copy": {
+                    "content": "<p>A unique body heat activated formula provides long-lasting protection all day long. It instantly responds to changes in your body temperature to help you stay dry as you do more.</p>"
+                },
+                "price": {
+                    "content": "<p>TBD</p>"
+                },
+                "cta": {
+                    "copy": {
+                        "content": "<p>Shop Now</p>"
+                    },
+                    "url": "https://www.samsclub.com/sams/degree-men-deo-box-5-2-7-oz-pack/prod20154036.ip?xid=plp:product:1:1"
+                },
+                "background": {
+                    "mobile": {
+                        "filename": "mobile_0003_degree_coolrush.png",
+                        "filetype": "image/png",
+                        "src": "https://s3.amazonaws.com/schems.lbox.com/uploads/r1okgjnvG/mobile_0003_degree_coolrush.png"
+                    },
+                    "desktop": {
+                        "filename": "desktop_0003_degree_coolrush.png",
+                        "filetype": "image/png",
+                        "src": "https://s3.amazonaws.com/schems.lbox.com/uploads/Syfggs2DG/desktop_0003_degree_coolrush.png"
+                    }
+                }
+            },
+            {
+                "brand": {
+                    "content": "<p>Degree<sup>&reg;</sup></p>"
+                },
+                "productTitle": {
+                    "content": "<p>Dry Protection Deodorant, Shower Clean</p>"
+                },
+                "thumbnail": {
+                    "filename": "thumbnail_0004_degree_dryprotect.jpg",
+                    "filetype": "image/jpeg",
+                    "src": "https://s3.amazonaws.com/schems.lbox.com/uploads/BygNli2DM/thumbnail_0004_degree_dryprotect.jpg"
+                },
+                "instantSavings": {
+                    "hasSavings": "true",
+                    "copy": "$2 Instant Savings"
+                },
+                "rating": "4.123",
+                "caption": "Recommended For Your Family:",
+                "headline": {
+                    "content": "<p>Degree<sup>&reg;</sup> Dry Protection Deodorant, Shower Clean (2.6 oz, 4 pk. + 1.6 oz. Sexy Intrigue)</p>"
+                },
+                "copy": {
+                    "content": "<p><!--?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?--></p>\n<div>Get 24-hour trusted protection that responds to your body's needs. This Degree antiperspirant stick has an invigorating, clean floral scent of rose and jasmine, blended with delicate fruit.&nbsp;</div>"
+                },
+                "price": {
+                    "content": "<p>TBD</p>"
+                },
+                "cta": {
+                    "copy": {
+                        "content": "<p>Shop Now</p>"
+                    },
+                    "url": "https://www.samsclub.com/sams/degree-women-4-2-6-oz-1-1-6-oz/prod20171950.ip?xid=plp:product:1:2"
+                },
+                "background": {
+                    "mobile": {
+                        "filename": "mobile_0004_degree_dryprotect.png",
+                        "filetype": "image/png",
+                        "src": "https://s3.amazonaws.com/schems.lbox.com/uploads/BkCugjnPG/mobile_0004_degree_dryprotect.png"
+                    },
+                    "desktop": {
+                        "filename": "desktop_0004_degree_dryprotect.png",
+                        "filetype": "image/png",
+                        "src": "https://s3.amazonaws.com/schems.lbox.com/uploads/SJVYls2Dz/desktop_0004_degree_dryprotect.png"
+                    }
+                }
+            },
+            {
+                "productTitle": {
+                    "content": "<p>Motionsense DrySpray for Men, Ultraclear Black &amp; White</p>"
+                },
+                "brand": {
+                    "content": "<p>Degree<sup>&reg;</sup></p>"
+                },
+                "instantSavings": {
+                    "hasSavings": "true",
+                    "copy": "$2 Instant Savings"
+                },
+                "rating": "4.123",
+                "caption": "Recommended for your family:",
+                "thumbnail": {
+                    "filename": "thumbnail_0005_degree_motionsense.jpg",
+                    "filetype": "image/jpeg",
+                    "src": "https://s3.amazonaws.com/schems.lbox.com/uploads/S1uZZihvf/thumbnail_0005_degree_motionsense.jpg"
+                },
+                "headline": {
+                    "content": "<p>Degree<sup>&reg;</sup> Motionsense DrySpray for Men, Ultraclear Black &amp; White (3.8 oz., 3 pk.)</p>"
+                },
+                "copy": {
+                    "content": "<p>Don't let your antiperspirant deodorant leave its mark on your clothes. New Degree Men Antiperspirant Deodorant Ultraclear Black + White is specially designed with a formula that cuts down on the stains some antiperspirants leave behind.</p>"
+                },
+                "price": {
+                    "content": "<p>TBD</p>"
+                },
+                "cta": {
+                    "copy": {
+                        "content": "<p>Shop Now</p>"
+                    },
+                    "url": "https://www.samsclub.com/sams/degree-adventure-dry-spray/prod17190115.ip?xid=plp:product:1:3"
+                },
+                "background": {
+                    "mobile": {
+                        "filename": "mobile_0005_degree_motionsense.png",
+                        "filetype": "image/png",
+                        "src": "https://s3.amazonaws.com/schems.lbox.com/uploads/S1hVZo2Pf/mobile_0005_degree_motionsense.png"
+                    },
+                    "desktop": {
+                        "filename": "desktop_0005_degree_motionsense.png",
+                        "filetype": "image/png",
+                        "src": "https://s3.amazonaws.com/schems.lbox.com/uploads/rymBWi2vG/desktop_0005_degree_motionsense.png"
+                    }
+                }
+            },
+            {
+                "productTitle": {
+                    "content": "<p>Advanced Protection Antiperspirant, Adventure</p>"
+                },
+                "brand": {
+                    "content": "<p>Degree<sup>&reg;</sup> for Men&nbsp;</p>"
+                },
+                "thumbnail": {
+                    "filename": "thumbnail_0006_degree_adventure.jpg",
+                    "filetype": "image/jpeg",
+                    "src": "https://s3.amazonaws.com/schems.lbox.com/uploads/ByrTWonwG/thumbnail_0006_degree_adventure.jpg"
+                },
+                "instantSavings": {
+                    "hasSavings": "true",
+                    "copy": "$2 Instant Savings"
+                },
+                "rating": "4.123",
+                "caption": "Recommended for your family:",
+                "headline": {
+                    "content": "<p><!--?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?--></p>\n<div>Degree<sup>&reg;</sup> for Men Advanced Protection Antiperspirant, Adventure (2.7 oz., 5 pk.)</div>"
+                },
+                "copy": {
+                    "content": "<p>Degree Men Advanced Protection Adventure includes MotionSense technology. Enduring protection for whatever your adventure, the rugged fragrance blends clean citrus, energizing fresh pepper and long-lasting notes of wood musk.</p>"
+                },
+                "price": {
+                    "content": "<p>TBD</p>"
+                },
+                "cta": {
+                    "copy": {
+                        "content": "<p>Shop Now</p>"
+                    },
+                    "url": "https://www.samsclub.com/sams/degree-men-adventure-ap-deo/prod21940253.ip?xid=plp:product:1:4"
+                },
+                "background": {
+                    "mobile": {
+                        "filename": "mobile_0006_degree_adventure.png",
+                        "filetype": "image/png",
+                        "src": "https://s3.amazonaws.com/schems.lbox.com/uploads/B1g7MjhDf/mobile_0006_degree_adventure.png"
+                    },
+                    "desktop": {
+                        "filename": "desktop_0006_degree_adventure.png",
+                        "filetype": "image/png",
+                        "src": "https://s3.amazonaws.com/schems.lbox.com/uploads/BkLmzs2PM/desktop_0006_degree_adventure.png"
+                    }
+                }
+            },
+            {
+                "productTitle": {
+                    "content": "<p>XL Deodorant Body Spray, Phoenix or Apollo</p>"
+                },
+                "brand": {
+                    "content": "<p>AXE</p>"
+                },
+                "thumbnail": {
+                    "filename": "thumbnail_0007_axe_bodyspray.jpg",
+                    "filetype": "image/jpeg",
+                    "src": "https://s3.amazonaws.com/schems.lbox.com/uploads/HkIwzj2wf/thumbnail_0007_axe_bodyspray.jpg"
+                },
+                "instantSavings": {
+                    "hasSavings": "true",
+                    "copy": "$2 Instant Savings"
+                },
+                "rating": "4.123",
+                "caption": "Recommended for your family:",
+                "headline": {
+                    "content": "<p>AXE XL Deodorant Body Spray, Phoenix or Apollo (5.1 oz., 4 pk.)</p>"
+                },
+                "copy": {
+                    "content": "<p>AXE XL Deodorant Body Spray has the same long-lasting fragrance and effective deodorant protection of the original version, but is now in a larger size with 27% more per can!</p>"
+                },
+                "price": {
+                    "content": "<p>TBD</p>"
+                },
+                "cta": {
+                    "copy": {
+                        "content": "<p>Shop Now</p>"
+                    },
+                    "url": "https://www.samsclub.com/sams/axe-xl-body-spray-4-5-1-oz/prod21970365.ip?xid=plp:product:1:10"
+                },
+                "background": {
+                    "mobile": {
+                        "filename": "mobile_0007_axe_bodyspray.png",
+                        "filetype": "image/png",
+                        "src": "https://s3.amazonaws.com/schems.lbox.com/uploads/BJToMi2vz/mobile_0007_axe_bodyspray.png"
+                    },
+                    "desktop": {
+                        "filename": "desktop_0007_axe_bodyspray.png",
+                        "filetype": "image/png",
+                        "src": "https://s3.amazonaws.com/schems.lbox.com/uploads/HkV3zs3Dz/desktop_0007_axe_bodyspray.png"
+                    }
+                }
+            },
+            {
+                "productTitle": {
+                    "content": "<p>Revitalizing Shower Gel, Phoenix or Apollo</p>"
+                },
+                "brand": {
+                    "content": "<p>AXE&nbsp;</p>"
+                },
+                "thumbnail": {
+                    "filename": "thumbnail_0008_axe_bodywash.jpg",
+                    "filetype": "image/jpeg",
+                    "src": "https://s3.amazonaws.com/schems.lbox.com/uploads/ryAkQihPz/thumbnail_0008_axe_bodywash.jpg"
+                },
+                "instantSavings": {
+                    "hasSavings": "true",
+                    "copy": "$2 Instant Savings"
+                },
+                "rating": "4.123",
+                "caption": "Recommended for your family:",
+                "headline": {
+                    "content": "<p>AXE Revitalizing Shower Gel, Phoenix or Apollo (16 fl. oz., 3 pk.)</p>"
+                },
+                "copy": {
+                    "content": "<p>Feel fresh, cool and revived every time you step out of the shower with AXE Revitalizing Shower Gel.</p>"
+                },
+                "price": {
+                    "content": "<p>TBD</p>"
+                },
+                "cta": {
+                    "copy": {
+                        "content": "<p>Shop Now</p>"
+                    },
+                    "url": "https://www.samsclub.com/sams/axe-shower-gel-new-3-pk-16-fl-oz/prod7550054.ip?xid=plp:product:1:1"
+                },
+                "background": {
+                    "desktop": {
+                        "filename": "desktop_0008_axe_bodywash.png",
+                        "filetype": "image/png",
+                        "src": "https://s3.amazonaws.com/schems.lbox.com/uploads/r1AEQsnwf/desktop_0008_axe_bodywash.png"
+                    },
+                    "mobile": {
+                        "filename": "mobile_0008_axe_bodywash.png",
+                        "filetype": "image/png",
+                        "src": "https://s3.amazonaws.com/schems.lbox.com/uploads/S1jS7o3PM/mobile_0008_axe_bodywash.png"
+                    }
+                }
+            },
+            {
+                "productTitle": {
+                    "content": "<p><!--?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?--></p>\n<div>Deodorant Sticks, Phoenix or Black</div>"
+                },
+                "brand": {
+                    "content": "<p>AXE</p>"
+                },
+                "thumbnail": {
+                    "filename": "thumbnail_0010_axe_deostick.jpg",
+                    "filetype": "image/jpeg",
+                    "src": "https://s3.amazonaws.com/schems.lbox.com/uploads/SyitQo2vG/thumbnail_0010_axe_deostick.jpg"
+                },
+                "instantSavings": {
+                    "hasSavings": "true",
+                    "copy": "$2 Instant Savings"
+                },
+                "rating": "4.123",
+                "caption": "Recommended for your family:",
+                "headline": {
+                    "content": "<p>AXE Deodorant Sticks, Phoenix or Black (2.7 oz., 4 pk.)</p>"
+                },
+                "copy": {
+                    "content": "<p>Easy to apply, AXE deodorant stick provides all-day freshness and odor protection. Apply a few strokes to washed and dried underarms. Wait a minute, get dressed and go.&nbsp;</p>"
+                },
+                "price": {
+                    "content": "<p>TBD</p>"
+                },
+                "cta": {
+                    "copy": {
+                        "content": "<p>Shop Now</p>"
+                    },
+                    "url": "https://www.samsclub.com/sams/axe-is-box-4-2-7-oz-stick/prod20153866.ip?xid=plp:product:1:3"
+                },
+                "background": {
+                    "mobile": {
+                        "filename": "mobile_0010_axe_deostick.png",
+                        "filetype": "image/png",
+                        "src": "https://s3.amazonaws.com/schems.lbox.com/uploads/Hks6Xi3wf/mobile_0010_axe_deostick.png"
+                    },
+                    "desktop": {
+                        "filename": "desktop_0010_axe_deostick.png",
+                        "filetype": "image/png",
+                        "src": "https://s3.amazonaws.com/schems.lbox.com/uploads/SkVC7s3DG/desktop_0010_axe_deostick.png"
+                    }
+                }
+            }
+        ]
+    },
+    "social": {
+        "headline": {
+            "content": "<p>Find Out What&rsquo;s In Style In The Aisle</p>"
+        },
+        "subheadline": {
+            "content": "<p>Featuring Your Favorite Sam&rsquo;s Club Insiders Using #StepItUpAtSams and #SamsClub!</p>"
+        },
+        "feed": [
+            {
+                "username": "@dawncaptures ",
+                "title": "Suave Professionals® Avocado + Olive Oil ",
+                "copy": {
+                    "content": "<p>Being able to stock up on my favorite Suave Professionals Avocado + Olive Oil Shampoo and Conditioner is easy with the Scan &amp; Go app at<strong> #SamsClub</strong> <strong>#StepItUpAtSams&nbsp;</strong></p>"
+                },
+                "avatar": {
+                    "filename": "0000_1.jpg",
+                    "filetype": "image/jpeg",
+                    "src": "https://s3.amazonaws.com/schems.lbox.com/uploads/B1JyHs1Hz/0000_1.jpg"
+                },
+                "cta": "https://www.samsclub.com/sams/suave-avocado-sh-cd-2-40oz/prod21351074.ip?xid=plp:product:1:4",
+                "thumbnail": {
+                    "filename": "Cutefetti_SuaveAvo.jpg",
+                    "filetype": "image/jpeg",
+                    "src": "https://s3.amazonaws.com/schems.lbox.com/uploads/rJEUYECSf/Cutefetti_SuaveAvo.jpg"
+                }
+            },
+            {
+                "title": "Suave Kids®",
+                "username": "@kendallrayburn",
+                "copy": {
+                    "content": "<p>As mommas, we work hard. So why not do everything possible to make our lives easier? Make <strong>#SamsClub</strong> your one-stop-shop can save you both time and money&mdash;and my kiddos love the Suave Kids Disney Frozen Elsa 2-in-1 Shampoo &amp; Conditioner! <strong>#StepItUpAtSams&nbsp;</strong></p>"
+                },
+                "avatar": {
+                    "filename": "0001_2.jpg",
+                    "filetype": "image/jpeg",
+                    "src": "https://s3.amazonaws.com/schems.lbox.com/uploads/By2yHjJBG/0001_2.jpg"
+                },
+                "cta": "https://www.samsclub.com/sams/suave-kids-40oz-40-0z-sh-bodywash/prod21352609.ip?xid=plp:product:1:1",
+                "thumbnail": {
+                    "filename": "KendallRayburn_SuaveKids.jpg",
+                    "filetype": "image/jpeg",
+                    "src": "https://s3.amazonaws.com/schems.lbox.com/uploads/r14PKVCSM/KendallRayburn_SuaveKids.jpg"
+                }
+            },
+            {
+                "username": "@mwhairstyles",
+                "title": "Dove",
+                "copy": {
+                    "content": "<p>I let my hair air dry when I first tried this out and my husband actually said my hair looked silky and fluffy-- out of the blue...! I'm so glad I discovered Dove Go Fresh Coconut Hydration at <strong>#SamsClub</strong>!<strong> #StepItUpAtSams&nbsp;</strong></p>"
+                },
+                "avatar": {
+                    "filename": "0002_3.jpg",
+                    "filetype": "image/jpeg",
+                    "src": "https://s3.amazonaws.com/schems.lbox.com/uploads/BkSxHjkrM/0002_3.jpg"
+                },
+                "cta": "https://www.samsclub.com/sams/dove-coconut-sh-40-oz/prod22060889.ip?xid=plp:product:1:21",
+                "thumbnail": {
+                    "filename": "MakeupWearables_DoveCoco.jpg",
+                    "filetype": "image/jpeg",
+                    "src": "https://s3.amazonaws.com/schems.lbox.com/uploads/B1gdt4RSG/MakeupWearables_DoveCoco.jpg"
+                }
+            },
+            {
+                "title": "Suave Kids®",
+                "username": "@pennypinchinmom",
+                "copy": {
+                    "content": "<p>I love that I can find great products for the whole family at <strong>#SamsClub</strong>. My kids LOVE using their own Suave Kids Disney Star Wars&trade; BB-8 3-in-1 Shampoo, Conditioner &amp; Body Wash! It smells great and works amazingly! <strong>#StepUpYourStyle</strong></p>\n<p>&nbsp;</p>"
+                },
+                "avatar": {
+                    "filename": "0003_4.jpg",
+                    "filetype": "image/jpeg",
+                    "src": "https://s3.amazonaws.com/schems.lbox.com/uploads/SyE-BikSG/0003_4.jpg"
+                },
+                "cta": "https://www.samsclub.com/sams/dove-coconut-sh-40-oz/prod22060889.ip?xid=plp:product:1:21",
+                "thumbnail": {
+                    "filename": "PennyPinchinMom.jpg",
+                    "filetype": "image/jpeg",
+                    "src": "https://s3.amazonaws.com/schems.lbox.com/uploads/HJs_FNCSM/PennyPinchinMom.jpg"
+                }
+            }
+        ],
+        "icon": {
+            "filename": "chevron_1.svg",
+            "filetype": "image/svg+xml",
+            "src": "https://s3.amazonaws.com/schems.lbox.com/uploads/ryebttFfz/chevron_1.svg"
+        }
+    },
+    "global": {
+        "logo": {
+            "filename": "samsclub_logo.svg",
+            "filetype": "image/svg+xml",
+            "src": "https://s3.amazonaws.com/schems.lbox.com/uploads/rymEGDZXz/samsclub_logo.svg"
+        },
+        "pageTitle": "Sam's Club - Step Up Your Style",
+        "footerLogo": {
+            "filename": "samsclub_logo_nostroke.svg",
+            "filetype": "image/svg+xml",
+            "src": "https://s3.amazonaws.com/schems.lbox.com/uploads/ryXYuo-Qf/samsclub_logo_nostroke.svg"
+        },
+        "brandLogos": {
+            "dove": {
+                "mobile": {
+                    "filename": "dove_mobile.svg",
+                    "filetype": "image/svg+xml",
+                    "src": "https://s3.amazonaws.com/schems.lbox.com/uploads/H1HDNsGXG/dove_mobile.svg"
+                },
+                "desktop": {
+                    "filename": "dove_desktop.svg",
+                    "filetype": "image/svg+xml",
+                    "src": "https://s3.amazonaws.com/schems.lbox.com/uploads/BkiD4oGQf/dove_desktop.svg"
+                },
+                "allBrands": {
+                    "filename": "footer-brand-logos.png",
+                    "filetype": "image/png",
+                    "src": "https://s3.amazonaws.com/schems.lbox.com/uploads/SJz8cA6wf/footer-brand-logos.png"
+                }
+            },
+            "suave": {
+                "filename": "suave_logo.svg",
+                "filetype": "image/svg+xml",
+                "src": "https://s3.amazonaws.com/schems.lbox.com/uploads/Hyx_4izXM/suave_logo.svg"
+            }
+        },
+        "headerLogo": {
+            "filename": "samsclub_logo.svg",
+            "filetype": "image/svg+xml",
+            "src": "https://s3.amazonaws.com/schems.lbox.com/uploads/HJ29DQa4M/samsclub_logo.svg"
+        }
+    },
+    "share": {
+        "facebook": {
+            "copy": "Check out the latest looks and personal care solutions to #StepItUpAtSams. I'm stocking up for the whole family today!",
+            "url": "https://www.inspiringyourstyle.com",
+            "image": {
+                "filename": "facebook_share.jpg",
+                "filetype": "image/jpeg",
+                "src": "https://s3.amazonaws.com/schems.lbox.com/uploads/Sko85RpwM/facebook_share.jpg"
+            }
+        },
+        "twitter": {
+            "copy": "Check out the latest looks and personal care solutions to #StepItUpAtSams. I'm stocking up for the whole family today!",
+            "url": "https://www.inspiringyourstyle.com"
+        },
+        "pinterest": {
+            "copy": "Check out the latest looks and personal care solutions to #StepItUpAtSams. I'm stocking up for the whole family today!",
+            "image": {
+                "filename": "pinterest_share.jpg",
+                "filetype": "image/jpeg",
+                "src": "https://s3.amazonaws.com/schems.lbox.com/uploads/Bk27ohz7f/pinterest_share.jpg"
+            },
+            "url": "https://www.inspiringyourstyle.com"
+        },
+        "email": {
+            "message": "Check out the latest looks and personal care solutions to #StepItUpAtSams. I'm stocking up for the whole family today!",
+            "subject": "Share how you Step Up Your Style with #StepItUpAtSams",
+            "url": "https://www.inspiringyourstyle.com"
+        }
+    }
+}
